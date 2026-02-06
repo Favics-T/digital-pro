@@ -3,16 +3,16 @@ import { LuLeaf } from "react-icons/lu";
 
 function Cases() {
   return (
-    <div className='flex py-10  gap-14 mt-15'>
+    <div className='flex md:flex-row flex-col py-10  md:gap-14 gap-6 mt-15'>
       {/* header */}
         <p className='text-white text-lg w-40 leading-3.5'>90% <span  className='text-[12px] text-gray-500'>of our clients become regular customer</span></p>
             
-      <div className='w-full flex flex-col gap-16'>
+      <div className='w-full flex flex-col md:gap-16'>
         <h1 className='font-bold text-6xl'>CASES</h1>
 
-        <div className='bg-[url("/images/And.jpg")] p-10 bg-cover bg-center bg-no-repeat w-full h-100 '>
+        <div className='bg-[url("/images/And.jpg")] md:p-10 p-4 bg-cover bg-center bg-no-repeat w-full h-100 '>
         {/* sect-1 */}
-        <div className='flex gap-14'>
+        <div className='flex md:flex-row flex-col md:gap-14'>
             {/* image */}
            <div className='flex flex-col justify-between '>
              <div className='bg-pink-600 w-14 h-14 flex items-center justify-center rounded-full bg-gradient-to-r from-pink-600 via-transparent to-purple-700 text-2xl'><LuLeaf  /></div>

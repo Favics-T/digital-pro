@@ -22,10 +22,10 @@ function Services() {
         <h1 className='text-7xl text-center mt-8 font-bold'>Digital <span className='
        block bg-gradient-to-r bg-clip-text text-transparent from-indigo-800 via-pink-200 to-pink-500 '>Pro </span></h1>
 
-<div className='flex  gap-24'>
+<div className='flex  md:gap-24'>
    
    <div className='w-4/10'>
-    <img src={Img3} alt="" />
+    <img className='md:block hidden' src={Img3} alt="" />
 </div>
     <div>
     {

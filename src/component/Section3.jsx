@@ -10,13 +10,13 @@ const list = [
 
 function Section3() {
   return (
-    <div className='px-20 mt-20 flex  py-10  gap-20  '>
+    <div className='md:px-20 md:mt-20 flex md:flex-reverse flex-col  md:py-10 py-3 gap-8  md:gap-20  '>
       <Logo />
 
         <div className=' w-full flex flex-col gap-10'>
-            <h1 className='font-bold text-6xl'>SERVICES</h1>
+            <h1 className='font-bold md:text-6xl text-2xl'>SERVICES</h1>
 
-            <div className='grid grid-cols-3  gap-4'>
+            <div className='grid grid-cols-1 md:grid-cols-3  gap-4'>
               {
                 list.map((list)=>(
                   <Section3Card key={list.name} serv={list.serv} num={list.num} letter={list.text} desc={list.desc} />
