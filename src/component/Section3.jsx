@@ -10,10 +10,10 @@ const list = [
 
 function Section3() {
   return (
-    <div className='md:px-20 md:mt-20 flex md:flex-reverse flex-col  md:py-10 py-3 gap-8  md:gap-20  '>
+    <div className='md:px-20 md:mt-20 flex md:flex-reverse flex-col  md:py-10 py-3 gap-8  md:gap-20 items-center justify-center  '>
       <Logo />
 
-        <div className=' w-full flex flex-col gap-10'>
+        <div className=' w-full flex flex-col gap-10 '>
             <h1 className='font-bold md:text-6xl text-2xl'>SERVICES</h1>
 
             <div className='grid grid-cols-1 md:grid-cols-3  gap-4'>
@@ -30,3 +30,22 @@ function Section3() {
 }
 
 export default Section3
+
+// function Section3() {
+//   return (
+//     <div className='px-6 md:px-20 mt-10 md:mt-20 flex flex-col-reverse md:flex-row gap-10 md:gap-20 py-3 md:py-10'>
+//       <Logo />
+
+//       <div className='w-full flex flex-col gap-10'>
+//         <h1 className='font-bold text-2xl md:text-6xl'>SERVICES</h1>
+
+//         <div className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6'>
+//           {list.map((list) => (
+//             <Section3Card key={list.num} {...list} />
+//           ))}
+//         </div>
+//       </div>
+//     </div>
+//   )
+// }
+
