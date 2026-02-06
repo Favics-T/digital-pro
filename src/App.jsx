@@ -4,6 +4,7 @@ import Heroo from './component/Heroo'
 import Nav from './component/Nav'
 import Services from './component/Services'
 import Section3 from './component/Section3.jsx'
+import Cooperate from './component/Cooperate.jsx'
 // import Cases from './com'
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           <Services />
           <Section3 />
           <Cases />
+          <Cooperate />
          </div>
 
    </div>
