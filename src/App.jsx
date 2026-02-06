@@ -1,9 +1,10 @@
 import React from 'react'
-// import Hero from './component/Hero'
+import Cases from './component/Cases'
 import Heroo from './component/Heroo'
 import Nav from './component/Nav'
 import Services from './component/Services'
 import Section3 from './component/Section3.jsx'
+// import Cases from './com'
 function App() {
   return (
    <div className='bg-black text-white  flex flex-col gap-10'>
@@ -18,6 +19,7 @@ function App() {
          <div className='px-20 '>
           <Services />
           <Section3 />
+          <Cases />
          </div>
 
    </div>

@@ -17,7 +17,7 @@ function ServiceCard({icon, title,desc,}) {
 
       <div className='flex flex-col gap-4 '>
         <h1 className='font-bold text-xl'>{title}</h1>
-        <p className='text-sm font-bold'>{desc}</p>
+        <p className='text-sm leading-2 font-bold'>{desc}</p>
 
       </div>
     </div>

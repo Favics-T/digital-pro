@@ -10,7 +10,7 @@ const list = [
 
 function Section3() {
   return (
-    <div className='px-20 flex  py-10  gap-20  '>
+    <div className='px-20 mt-20 flex  py-10  gap-20  '>
       <Logo />
 
         <div className=' w-full flex flex-col gap-10'>
